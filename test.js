@@ -2,11 +2,11 @@
 
 
 
-function testThatApi() {
+//function testThatApi() {
 
-var capCall = "https://gateway.marvel.com/v1/public/characters?name=Captain%20America&apikey=a81b78c534562c5384986ee7dad0b0f7a124e249";
+var capCall = "https://gateway.marvel.com/v1/public/characters?name=Captain%20America&apikey=610ce3a19d117942aa84fe424579033f";
 
-	$.ajax({
+	/**$.ajax({
 		url: capCall,
 		method: "Get"
 	}).done(function(response) {
@@ -21,13 +21,18 @@ var capCall = "https://gateway.marvel.com/v1/public/characters?name=Captain%20Am
 
 $(document).ready(function() {
 	testThatApi();
-});
+});**/
 
-/**function getMarvelAPI() {
+
+getMarvelAPI();
+
+
+function getMarvelAPI() {
         $.ajax({
-            url: 'https://gateway.marvel.com/v1/public/characters?name=a81b78c534562c5384986ee7dad0b0f7a124e249',
+            url: capCall,
             method: 'GET'
         }).done(function(response) {
             console.log(response);
     });
-    }**/
+
+   };
