@@ -43,7 +43,7 @@ function getMarvelAPI() {
            
     });
 
-    $("#test").html(attrTxt);
+   // $("#test").html(attrTxt);
     $("#test").html("What the fuck?");
 };
 
