@@ -41,7 +41,7 @@ function getMarvelAPI() {
 
     	console.log(response);
 	    console.log(response.attributionHTML);
-	    console.log(response.results.description);
+	    console.log(response.results[0].description);
 	    attrTxt = response;
            
     });
