@@ -166,7 +166,7 @@ $('.char').mouseenter(function() {
     var charNameStats = $(this).children('h3').html();
     var charIdStats = $(this).children('img').attr('id');
 
-    var queryURL = "https://gateway.marvel.com:443/v1/public/characters?name=" + charNameStats + "apikey=610ce3a19d117942aa84fe424579033f";
+    var queryURL = "https://gateway.marvel.com:443/v1/public/characters?name=" + charNameStats + "&apikey=610ce3a19d117942aa84fe424579033f";
 
     var apiTest;
     $.ajax({
