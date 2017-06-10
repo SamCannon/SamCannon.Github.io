@@ -38,13 +38,16 @@ function getMarvelAPI() {
 
     }).done(function(response) {
 
+
+    	console.log(response);
 	    console.log(response.attributionHTML);
+	    console.log();
 	    attrTxt = response;
            
     });
 
    // $("#test").html(attrTxt);
-    $("#textArea").html("What the fuck?");
+    //$("#textArea").html("What the fuck?");
 };
 
 $("#textArea").html("work god damn it!!!!");
