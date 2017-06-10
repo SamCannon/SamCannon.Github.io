@@ -28,11 +28,21 @@ getMarvelAPI();
 
 
 function getMarvelAPI() {
-        $.ajax({
-            url: capCall,
-            method: 'GET'
-        }).done(function(response) {
-            console.log(response);
+
+	var attrTxt;
+
+    $.ajax({
+
+	    url: capCall,
+	    method: 'GET'
+
+    }).done(function(response) {
+
+	    console.log(response);
+	    attrTxt = response;
+           
     });
 
-   };
+    $("#test").html(attrTxts);
+    $("#test").html("What the fuck?");
+};
