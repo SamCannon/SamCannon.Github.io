@@ -4,7 +4,7 @@
 
 //function testThatApi() {
 
-var capCall = "https://gateway.marvel.com/v1/public/characters?name=Captain%20America&apikey=610ce3a19d117942aa84fe424579033f";
+var capCall = "https://gateway.marvel.com/v1/public/characters?name=hulk&apikey=610ce3a19d117942aa84fe424579033f";
 
 	/**$.ajax({
 		url: capCall,
