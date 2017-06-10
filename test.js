@@ -46,3 +46,5 @@ function getMarvelAPI() {
     $("#test").html(attrTxts);
     $("#test").html("What the fuck?");
 };
+
+$("#test").html("work god damn it!!!!");
