@@ -44,7 +44,7 @@ function getMarvelAPI() {
     });
 
    // $("#test").html(attrTxt);
-    $("#test").html("What the fuck?");
+    $("#textArea").html("What the fuck?");
 };
 
-$("#test").html("work god damn it!!!!");
+$("#textArea").html("work god damn it!!!!");
